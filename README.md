@@ -36,3 +36,5 @@ FFmpeg is a leading multimedia framework able to decode, encode, transcode, mux,
 2. Run the script in PowerShell:
    ```powershell
    .\ScreenRecording2.ps1 -OutFolder "C:\temp\recording" -Framerate 30 -VideoName "my_recording.mp4"
+3. Follow the on-screen instructions to select the recording area
+   
