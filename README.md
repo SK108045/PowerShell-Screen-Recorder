@@ -37,4 +37,13 @@ FFmpeg is a leading multimedia framework able to decode, encode, transcode, mux,
    ```powershell
    .\ScreenRecording2.ps1 -OutFolder "C:\temp\recording" -Framerate 30 -VideoName "my_recording.mp4"
 3. Follow the on-screen instructions to select the recording area
+
+## Parameters
+   - **OutFolder**: Directory to save the recording (required)
+   - **Framerate**: Frames per second for the recording (default: 24)
+   - **VideoName**: Name of the output video file (default: 'out.mp4')
+   - **FFMpegPath**: Custom path to FFmpeg executable (optional)
+   - **Confirm**: Switch to bypass confirmation prompts
+     
+   
    
